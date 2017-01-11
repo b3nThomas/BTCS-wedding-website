@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BT & CS Wedding</title>
+  <link rel="icon" href="img/heart-icon.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+
+  <div id="navBar" class="diamondDust">
+    <ul>
+      <li id="Ho">Home</li>
+      <li id="Ga">Gallery</li>
+      <li id="Ve">Venue</li>
+      <li id="Gi">Gift List</li>
+      <li id="Rs">RSVP</li>
+    </ul>
+  </div>
+
+
+  <div id="home" class="pageDiv">
+
+    <img id="birds1" src="img/love-birds-test1.png">
+
+    <div id="welcomeYou">
+      <p class="bnc diamondDust shadow">Ben<span class="andSymbol greatVibes"> & </span>Clare</p>
+    </div>
+
+    <div id="dateDiv">
+      <p class="date greatVibes"> Friday 30th March 2018 </p>
+      <p id="daysText" class="diamondDust"><span id="days" class="lucida shadow"></span> days to go...</p>
+    </div>
+
+  </div>
+
+
+  <div id="gallery">
+    <p class="diamondDust pageTitle shadow">The Gallery</p>
+    <p class="lucida shadow">"A collection of our good times together..." ~ B&C</p>
+
+    <div class="imgContainer">
+      <img class="currentImage" id="galleryImage" src="img/cripps-sign.jpg"></img>
+    </div>
+
+    <div class="imgThumbnails" id="galleryThumbnails">
+      <ul>
+        <li><img src="img/cripps-rear.jpg" class="thumbnail"></img></li>
+      </ul>
+    </div>
+
+  </div>
+
+
+  <div id="venue">
+
+    <p class="diamondDust pageTitle shadow">Cripps Barn</p>
+
+    <div class="venueAddress">
+      <p class="lucida shadow">Bibury, Cirencester, Gloucestershire, GL7 5BA</p>
+    </div>
+
+    <div id="venueDescription" class="lucida shadow">
+    <p>"We can't wait to celebrate our special day with you all at this beautiful location." ~ B&C</p>
+    </div>
+    <div class="imgContainer">
+      <img class="currentImage" id="venueImage" src="img/cripps-sign.jpg"></img>
+    </div>
+
+    <div class="imgThumbnails" id="venueThumbnails">
+      <ul>
+        <li><img src="img/cripps-sign.jpg" class="thumbnail"></img></li>
+        <li><img src="img/cripps-rear.jpg" class="thumbnail"></img></li>
+        <li><img src="img/cripps-ceremony.jpg" class="thumbnail"></img></li>
+        <li><img src="img/cripps-outdoors.jpg" class="thumbnail"></img></li>
+        <li><img src="img/cripps-breakfast.jpg" class="thumbnail"></img></li>
+        <li><img src="img/cripps-bbq.jpg" class="thumbnail"></img></li>
+        <li><img src="img/cripps-night.jpg" class="thumbnail"></img></li>
+      </ul>
+    </div>
+
+    <br>
+    <p class="underlineHeader qaskin shadow">Location</p>
+    <a title="Click here to plan your route" href="https://www.google.co.uk/maps/place/Cripps+Barn/@51.7297205,-1.9645705,10.96z/data=!4m5!3m4!1s0x48713c04833db771:0x688c98a90ca25866!8m2!3d51.764944!4d-1.877889" style="outline: 0" target="_blank">
+      <img id="map" src="img/cripps-google-maps.jpg"></img>
+    </a>
+
+    <div id="accommodation" class="venueAddress">
+      <p title="Click here to view the local accomodation" class="lucida shadow"><a href="https://crippsbarn.com/local-area/accommodation/" style="outline: 0; text-decoration: none; color: white;" target="_blank">Accommodation</a></p>
+    </div>
+    <br>
+    <p style="color: #ff6d6d">♥</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  </div>
+
+
+  <div id="giftList" class="lucida poem">
+    <p style="color: #ff6d6d">♥</p>
+    <p>Please find below some information just for you</p>
+    <p>A few rules and regulations that we please insist you do</p>
+    <br>
+    <p>The first is vital if you are to be our guest…</p>
+    <p>Eat, drink and enjoy yourself…or at least try your best!</p>
+    <br>
+    <p>The second is an order, so bring your dancing shoes</p>
+    <p>When the music starts to play, show us your best moves!</p>
+    <br>
+    <p>The third may be broken, we really do not mind</p>
+    <p>But if you choose to follow it, we thank you for being kind</p>
+    <br>
+    <p>We're not sure how to word this but we’ll give it our best shot…</p>
+    <p>Contributions would be most welcome, to help us go somewhere hot!</p>
+    <br>
+    <p>A honeymoon would be an amazing way to kick-start our new life</p>
+    <p>A week away with sun and sand, as husband and as wife</p>
+    <br>
+    <p>The choice is entirely up to you and we would just like to say</p>
+    <p>We really hope that you can come and share our special day</p>
+    <br>
+    <p>Ben & Clare x</p>
+    <p style="color: #ff6d6d">♥</p>
+  </div>
+
+
+  <div id="rsvp">
+    <div class="formFrame lucida">
+      <p style="color: #ff6d6d" class="center">♥</p>
+      <p class="center">"Let us know below if you can make it on the day. We really hope you can!" ~ B&C</p>
+
+      <form>
+        <p class="diamondDust shadow center formHeader">RSVP</p><br>
+
+          Party members<br><textarea rows="5" cols="50" name="attendees">Please provide the names of everyone in your party...</textarea><br><br>
+
+          Will you be attending?<br>
+          <input type="radio" name="attending" value="yes"> Yes
+          <input type="radio" name="attending" value="no"> No <br><br>
+
+          Dietary requirements<br><textarea rows="5" cols="50" name="dietry">Please let us know if anyone in your party has dietary allergies or intolerances...</textarea><br><br>
+
+          Anything else to add?<br><textarea rows="5" cols="50" name="dietry">If you have anything additional to tell us or just want to leave a message, please do so here :)</textarea><br><br>
+
+          Your email address: <input  type="text" name="email" maxlength="80" size="43"><br><br>
+
+          <input type="submit" name="submit" value="Submit" />
+          <input type="reset" name="reset"  value="Reset" />
+
+      </form>
+
+    </div>
+  </div>
+
+</body>
+</html>

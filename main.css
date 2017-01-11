@@ -1,0 +1,312 @@
+
+
+/*FONTS AND STYLES*/
+@font-face{
+  font-family: qaskin;
+  src: url(fonts/qaskin.ttf)
+}
+
+@font-face{
+  font-family: greatVibes;
+  src: url(fonts/greatVibes.ttf);
+}
+
+@font-face{
+    font-family: diamondDust;
+    src: url(fonts/diamondDust.ttf);
+}
+
+.diamondDust{
+  font-family: diamondDust;
+}
+
+.greatVibes{
+  font-family: greatVibes;
+}
+
+.lucida{
+  font-family: Lucida Calligraphy;
+}
+
+.qaskin{
+  font-family: qaskin;
+}
+
+.shadow{
+  text-shadow: -0.7px 0.8px #737373;
+}
+
+.smallGlow{
+  box-shadow: 0 0 10px 4px #ff6d6d;
+}
+
+.bigGlow{
+  box-shadow: 0 0 10px 7px #ff6d6d;
+}
+
+.center{
+  text-align: center;
+}
+
+/*IMAGES*/
+
+.imgContainer{
+  background: black;
+  margin: 60px auto auto auto;
+  height: 411px;
+  width: 620px;
+}
+
+.currentImage{
+  width: 620px;
+  height: 411px;
+}
+
+.imgThumbnails{
+  display: table;
+  margin: 25px auto 50px auto;
+}
+.imgThumbnails ul{
+  margin: 0;
+  padding: 0;
+}
+
+.imgThumbnails li{
+  list-style-type: none;
+  float: left;
+}
+
+.imgThumbnails img{
+  transition: 0.5s;
+  padding: 1px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.thumbnail{
+  width: 65px;
+  height: auto;
+}
+
+
+/*MAIN STRUCTURE*/
+html{
+    overflow-y: scroll;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.pageDiv{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/*NAV BAR STYLING*/
+
+#navBar{
+  display: table;
+  margin: 0 auto;
+  min-width: 200px;
+}
+
+#navBar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navBar li{
+  border-radius: 0px 0px 5px 5px;
+  float: left;
+  padding: 2px 12.5px 8px 12.5px;
+  transition: 0.3s;
+  font-size: 23px;
+}
+
+ .navInitial{
+   color: black;
+   font-size: 18px;
+   font-weight: 400;
+   opacity: 0.90;
+ }
+
+.navActive{
+  background: #ff6d6d;
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+  transition: 1000;
+}
+
+
+
+
+
+
+
+
+/*HOME PAGE STYLING*/
+
+#home{
+}
+
+#birds1{
+  display: block;
+  margin: 5% auto 0 auto;
+  min-width: 250px;
+  opacity: 0.82;
+  width:30%;
+
+}
+
+#welcomeYou{
+  min-width: 200px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.andSymbol{
+  color: #ff6d6d;
+  font-size: 60px;
+}
+
+.bnc{
+  font-size: 80px;
+  margin: 5% 0 0 0;
+}
+.invYou{
+  font-size: 20px;
+}
+
+#dateDiv{
+    margin: 3% 0 0 0;
+}
+
+#days{
+  font-size: 33px;
+  color: #ff6d6d;
+}
+
+.date{
+  font-size: 35px;
+  text-align: center;
+}
+
+#daysText{
+  margin-top: 2%;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*GALLERY STYLING*/
+#gallery{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*VENUE PAGE STYLING*/
+
+#venue{
+  text-align: center;
+}
+
+.pageTitle{
+  font-size: 73px;
+  margin: 15px 0 10px 0;
+  padding: 0;
+}
+
+.venueAddress{
+  background: #ff6d6d;
+  border-radius: 8px;
+  display: table;
+  margin: 0 auto;
+}
+
+.venueAddress p{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 3px 7px;
+}
+
+#venueDescription{
+  margin: 60px 0 0 0;
+  font-size: 14px;
+}
+
+
+
+
+
+#map{
+  cursor: pointer;
+  margin: 15px 0 15px 0;
+  transition: 0.3s;
+  padding: 1px;
+}
+
+.underlineHeader{
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#accommodation{
+  transition: 0.3s;
+}
+
+/*GIFT LIST STYLING*/
+
+.poem{
+  border: 1px solid #ff6d6d;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+
+/*RSVP STYLING*/
+
+.formFrame{
+    border: 1px solid #ff6d6d;
+    font-size: 13px;
+    margin: 20px auto 50px auto;
+    padding: 5px 3px 60px 3px;
+}
+
+#rsvp form{
+  border: 3px solid #ff6d6d;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  display: table;
+}
+
+.formHeader{
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+}
